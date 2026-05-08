@@ -1,0 +1,23 @@
+// For information on how to create your own theme, please refer to:
+// https://ionicframework.com/docs/theming/
+
+// colores de mi app de la doctora
+:root {
+	--ion-color-doctora: #ec98cd;
+	--ion-color-doctora-rgb: 236,152,205;
+	--ion-color-doctora-contrast: #000000;
+	--ion-color-doctora-contrast-rgb: 0,0,0;
+	--ion-color-doctora-shade: #d086b4;
+	--ion-color-doctora-tint: #eea2d2;
+}
+
+.ion-color-doctora {
+	--ion-color-base: var(--ion-color-doctora);
+	--ion-color-base-rgb: var(--ion-color-doctora-rgb);
+	--ion-color-contrast: var(--ion-color-doctora-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-doctora-contrast-rgb);
+	--ion-color-shade: var(--ion-color-doctora-shade);
+	--ion-color-tint: var(--ion-color-doctora-tint);
+}
+
+
